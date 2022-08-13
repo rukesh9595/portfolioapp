@@ -69,7 +69,7 @@ textarea:focus{
     }
     .same{
     
-        width:95%;
+        width:97%;
         
         border: 2px solid #dadada;
         border-radius: 6px;
@@ -80,15 +80,17 @@ textarea:focus{
         margin-right: 3%;
         margin-top: 10%;
         
+        
     }
     textarea{
-        width:95%;
+        width:97%;
     }
     .send-bt{
         border-radius: 0.3rem;
         background-color: black;
         color: white;
         margin-top: -1.5%;
+        margin-bottom: 10%;
         padding:5% 8% 5% 8%;
         font-size: 0.5rem;
         font-family: 'Poppins', sans-serif;
