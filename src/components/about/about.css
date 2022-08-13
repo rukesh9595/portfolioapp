@@ -85,6 +85,7 @@
     color: aliceblue;
     margin-top: 3%;
     
+    
 }
 .about__info{
     font-family: 'Poppins', sans-serif;
@@ -116,6 +117,7 @@
     }
     .about__cards{
         margin-top: 8%;
+        margin-right: 2.5%;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap:1rem;
@@ -142,6 +144,9 @@
         display:grid;
         place-items: center;
     
+    }
+    .about__head{
+        width:93%;
     }
     
     
