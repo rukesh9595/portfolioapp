@@ -63,8 +63,8 @@ textarea:focus{
 
 @media screen and (max-width:600px) {
     .input__box{
-        display: flex;
-        margin-left: 5%;
+        margin: auto;
+        display: block;
         margin-top: 10%;
     }
     .same{
@@ -76,8 +76,7 @@ textarea:focus{
         position: relative;
     }
     .input__bar{
-        margin: auto;
-        display: block;
+        
         margin-top: 10%;
         
     }
