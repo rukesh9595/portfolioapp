@@ -3,7 +3,7 @@ footer{
     padding:3rem 0;
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 10%;
+    
 
 }
 footer a{
@@ -54,7 +54,7 @@ footer a{
 /*  ---------------- media query -------------------- */
 
 @media screen and (max-width:600px) {
-    
+
     .permalinks{
         flex-direction: column;
         gap:1.5rem;
