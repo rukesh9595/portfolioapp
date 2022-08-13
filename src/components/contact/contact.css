@@ -66,6 +66,9 @@ textarea:focus{
         margin: auto;
         display: block;
         margin-top: 10%;
+        
+    }
+    .img__box{
         margin-bottom: 10%;
     }
     .same{
