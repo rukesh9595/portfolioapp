@@ -23,7 +23,7 @@ const Header = () => {
   //   AOS.init({duration:2000});
   // },[]);
   return (
-    <header>
+    <section  id='header'>
       <div className="container header__container">
         <h5>Hello It's Me</h5>
         <h1 data-aos="flip-left" data-aos-duration='3000'>Rukesh Lingayat</h1>
@@ -37,7 +37,7 @@ const Header = () => {
         </div>
         <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
-    </header>
+    </section>
   )
 }
 
