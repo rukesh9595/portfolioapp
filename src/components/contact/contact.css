@@ -69,19 +69,20 @@ textarea:focus{
     }
     .same{
     
-        width:100%;
+        width:95%;
         
         border: 2px solid #dadada;
         border-radius: 6px;
         position: relative;
     }
     .input__bar{
-        
+        margin-left: 3%;
+        margin-right: 3%;
         margin-top: 10%;
         
     }
     textarea{
-        width:100%;
+        width:95%;
     }
       
 
