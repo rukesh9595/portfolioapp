@@ -69,7 +69,7 @@ textarea:focus{
         
     }
     .img__box{
-        margin-bottom: 30%;
+        column-gap: 30px;
     }
     .same{
     
