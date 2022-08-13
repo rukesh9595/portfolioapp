@@ -48,7 +48,7 @@ const Contact = () => {
            <div  className="img__box">
              
             <div className="box__comp">
-              <Box  sx={{width:{xs:'95vh',md:'100vh'}, maxWidth:{xs:'95%',md:'100%'},height:{xs:'75vh',md:'95vh'},maxHeight:{xs:'75%',md:'95%'},minHeight:{xs:'75%',md:'95%'}}}>
+              <Box  sx={{width:{xs:'95vh',md:'100vh'}, maxWidth:{xs:'95%',md:'100%'},height:{xs:'75vh',md:'95vh'},maxHeight:{xs:'75%',md:'95%'},minHeight:{xs:'100%',md:'95%'}}}>
                 <img style={{width:'20%',marginLeft:'15px'}} src="./edu_img/email.png" alt="" />
                 <div className="input__box">
                 <form   ref={form} onSubmit={sendEmail} >
