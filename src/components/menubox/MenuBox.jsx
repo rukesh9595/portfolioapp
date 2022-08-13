@@ -42,7 +42,7 @@ const MenuBox = (props) => {
         onClick={handleClick}
         
         sx={theme => ({ [theme.breakpoints.up('sm')]:{top:'7%',position:'fixed',right:'12%'},
-                        [theme.breakpoints.between('xs','sm')]:{ top:'4%',position:'absolute',right:'10%'},
+                        [theme.breakpoints.between('xs','sm')]:{ top:'1%',position:'absolute',right:'5%'},
                         [theme.breakpoints.down('xs')]:{ top:'7%',position:'absolute',right:'12%'}
         
           })}
