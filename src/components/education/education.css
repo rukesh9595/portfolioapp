@@ -1,0 +1,71 @@
+#education{
+    margin-top: -15%;
+}
+.img__slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img__data {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+.school__img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#slider__img{
+    border-radius:5px;
+    width:30rem;
+    height:15rem;
+    
+
+}
+
+.place__name{
+    text-align:center;
+    font-size:0.9rem;
+    margin-top:2%;
+    
+}
+
+.year__name{
+    text-align:center;
+}
+
+
+/* ----------- media query ----------------*/
+
+
+@media screen and (max-width:1024px){
+    
+
+    #slider__img{
+        border-radius:5px;
+        margin-left: 30%;
+        width:25rem;
+        height:12.5rem;
+        
+    
+    }
+}
+
+@media screen and (max-width:600px){
+    
+    #education{
+        margin-top:10rem ;
+    }
+
+    #slider__img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+
+    }
+}
