@@ -69,7 +69,7 @@ textarea:focus{
     }
     .same{
     
-        width:95%;
+        width:100%;
         
         border: 2px solid #dadada;
         border-radius: 6px;
@@ -82,7 +82,7 @@ textarea:focus{
         
     }
     textarea{
-        width:95%;
+        width:100%;
     }
       
 
