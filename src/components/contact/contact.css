@@ -69,7 +69,7 @@ textarea:focus{
         
     }
     .img__box{
-        margin-bottom: 10%;
+        margin-bottom: 30%;
     }
     .same{
     
@@ -94,7 +94,6 @@ textarea:focus{
         background-color: black;
         color: white;
         margin-top: -1.5%;
-        margin-bottom: 10%;
         padding:5% 8% 5% 8%;
         font-size: 0.75rem;
         font-family: 'Poppins', sans-serif;
