@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 
 
 const Contact = () => {
-  AOS.init();
+ 
   const notify = () => {
     toast.success("Your message has been sent successfully.", {
         position: toast.POSITION.TOP_RIGHT,
@@ -44,7 +44,7 @@ const Contact = () => {
         <section id='contact' className="contact-container">
            <h5>Get in Touch</h5>
            <h2>Contact</h2>
-           <div data-aos="zoom-in" data-aos-duration="3000" className="img__box">
+           <div  className="img__box">
              
             <div className="box__comp">
               <Box  sx={{width:{xs:'95vh',md:'100vh'}, maxWidth:{xs:'95%',md:'100%'},height:{xs:'50vh',md:'95vh'},maxHeight:{xs:'50%',md:'95%'},backgroundColor:'#2c2c5c',borderRadius:5}}>
