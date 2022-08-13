@@ -30,14 +30,14 @@ const About = () => {
         <article className="about__card" 
         style={{borderWidth:'2px',borderColor:boxclr_a,}}
         onClick={()=>{setMeinfoHead('Software Engineer Intern at Untouched (15 May - 15 July 2022)'); setboxClr_a('green');setboxClr_b('');
-                          setMeinfoPara('◇ Made an Website from scratch using React and CSS')}}
+                          setMeinfoPara('◇ Made an Website from scratch using React Js')}}
         onMouseEnter={()=>{setMeinfoHead('Software Engineer Intern at Untouched (15 May - 15 July 2022)'); setboxClr_a('green');setboxClr_b('');
                           setMeinfoPara('◇ Made an Website from scratch using React and CSS')}}
                           
                           onMouseLeave={()=>{setMeinfoHead(''); setboxClr_b('');setboxClr_a('');
                           setMeinfoPara('')}}>
           <FaAward className='about__icon'/>
-          <h5>Experience</h5>
+          <h5> Experience </h5>
           <small>Internship</small>
           
         </article>
@@ -52,7 +52,7 @@ const About = () => {
                          >
         
           <FiUsers className='about__icon'/>
-          <h5>Positions of Responsibility</h5>
+          <h5>Position of Responsibility</h5>
           <small>Ches</small>
           
         </article>
