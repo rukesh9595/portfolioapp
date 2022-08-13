@@ -30,7 +30,7 @@ const About = () => {
         <article className="about__card" 
         style={{borderWidth:'2px',borderColor:boxclr_a,}}
         onClick={()=>{setMeinfoHead('Software Engineer Intern at Untouched (15 May - 15 July 2022)'); setboxClr_a('green');setboxClr_b('');
-                          setMeinfoPara('◇ Made an Website from scratch using React Js')}}
+                          setMeinfoPara('◇ Made an Website from scratch using React and Css')}}
         onMouseEnter={()=>{setMeinfoHead('Software Engineer Intern at Untouched (15 May - 15 July 2022)'); setboxClr_a('green');setboxClr_b('');
                           setMeinfoPara('◇ Made an Website from scratch using React and CSS')}}
                           
